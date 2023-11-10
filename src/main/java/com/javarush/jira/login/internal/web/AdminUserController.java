@@ -22,7 +22,7 @@ import static com.javarush.jira.common.BaseHandler.createdResponse;
 @RestController
 @RequestMapping(value = AdminUserController.REST_URL, produces = MediaType.APPLICATION_JSON_VALUE)
 public class AdminUserController extends AbstractUserController {
-    static final String REST_URL = "/api/admin/users";
+    public static final String REST_URL = "/api/admin/users";
 
     @GetMapping("/{id}")
     public User get(@PathVariable long id) {
