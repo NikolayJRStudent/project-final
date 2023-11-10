@@ -1,6 +1,6 @@
 
 
-Список выполненных задач:
+List of tasks accomplished:
 .Remove social networks: vk, yandex. Easy task
 2.Put sensitive information in a separate property file:
 login
